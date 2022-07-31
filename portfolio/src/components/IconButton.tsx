@@ -1,10 +1,14 @@
 import React from "react";
+import { ReactComponent as ButtonImage } from "../images/assets/button.svg";
 
-const IconButton = () => {
+interface ButtonInterface {
+    type: string;
+}
+const IconButton = (props: ButtonInterface) => {
     return (
-        <>
-            <div>hi</div>
-        </>
+        <button>
+            <ButtonImage fill="blue" className="w-20" transform="scale(1,1)" />
+        </button>
     );
 };
 
