@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kimchi8/kimchi8.github.io/tree/develop/static/css/main.79fe3e07.css",
-    "main.js": "/kimchi8/kimchi8.github.io/tree/develop/static/js/main.58fe974a.js",
-    "static/js/787.28cb0dcd.chunk.js": "/kimchi8/kimchi8.github.io/tree/develop/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/kimchi8/kimchi8.github.io/tree/develop/index.html",
-    "main.79fe3e07.css.map": "/kimchi8/kimchi8.github.io/tree/develop/static/css/main.79fe3e07.css.map",
-    "main.58fe974a.js.map": "/kimchi8/kimchi8.github.io/tree/develop/static/js/main.58fe974a.js.map",
-    "787.28cb0dcd.chunk.js.map": "/kimchi8/kimchi8.github.io/tree/develop/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/kimchi8/kimchi8.github.io/static/css/main.79fe3e07.css",
+    "main.js": "/kimchi8/kimchi8.github.io/static/js/main.573d9b5a.js",
+    "static/js/787.28cb0dcd.chunk.js": "/kimchi8/kimchi8.github.io/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/kimchi8/kimchi8.github.io/index.html",
+    "main.79fe3e07.css.map": "/kimchi8/kimchi8.github.io/static/css/main.79fe3e07.css.map",
+    "main.573d9b5a.js.map": "/kimchi8/kimchi8.github.io/static/js/main.573d9b5a.js.map",
+    "787.28cb0dcd.chunk.js.map": "/kimchi8/kimchi8.github.io/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79fe3e07.css",
-    "static/js/main.58fe974a.js"
+    "static/js/main.573d9b5a.js"
   ]
 }
