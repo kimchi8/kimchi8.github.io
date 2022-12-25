@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kimchi8/kimchi8.github.io/tree/develop/static/css/main.333b4d58.css",
-    "main.js": "/kimchi8/kimchi8.github.io/tree/develop/static/js/main.1d7d655f.js",
+    "main.css": "/kimchi8/kimchi8.github.io/tree/develop/static/css/main.79fe3e07.css",
+    "main.js": "/kimchi8/kimchi8.github.io/tree/develop/static/js/main.58fe974a.js",
     "static/js/787.28cb0dcd.chunk.js": "/kimchi8/kimchi8.github.io/tree/develop/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/kimchi8/kimchi8.github.io/tree/develop/index.html",
-    "main.333b4d58.css.map": "/kimchi8/kimchi8.github.io/tree/develop/static/css/main.333b4d58.css.map",
-    "main.1d7d655f.js.map": "/kimchi8/kimchi8.github.io/tree/develop/static/js/main.1d7d655f.js.map",
+    "main.79fe3e07.css.map": "/kimchi8/kimchi8.github.io/tree/develop/static/css/main.79fe3e07.css.map",
+    "main.58fe974a.js.map": "/kimchi8/kimchi8.github.io/tree/develop/static/js/main.58fe974a.js.map",
     "787.28cb0dcd.chunk.js.map": "/kimchi8/kimchi8.github.io/tree/develop/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.333b4d58.css",
-    "static/js/main.1d7d655f.js"
+    "static/css/main.79fe3e07.css",
+    "static/js/main.58fe974a.js"
   ]
 }
