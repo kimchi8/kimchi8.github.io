@@ -1,10 +1,9 @@
-import workBox from "../images/work-box.png";
 import { ReactComponent as WorkText } from "../images/work-fonts/work.svg";
 import { ReactComponent as WorkBlank } from "../images/work-fonts/work-blank.svg";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
-import audeara from "../images/companies/audeara.png";
+import WorkCarousel from "../components/workCarousel";
 
 const boxVariant = {
     visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
@@ -26,7 +25,7 @@ function Work() {
             <div className="mt-[30vh] ml-40">
                 <div>
                     <div id="imgBx" className="flex ml-40">
-                        <div id="work-title-container" className="h-[125vh] bg-transparent ">
+                        <div id="work-title-container" className="h-[117vh] mb-10 bg-transparent ">
                             <div id="blank-audera-text" className="sticky top-[11.5rem] bg-transparent ml-16">
                                 <div className=" w-10 bg-transparent tracking-widest">
                                     <WorkText className="bg-transparent w-48 " />
@@ -39,20 +38,19 @@ function Work() {
                             </div>
                         </div>
                     </div>
-                    <motion.div
-                        id="about"
-                        className="flex w-screen bg-transparent ml-2 "
-                        variants={boxVariant}
-                        initial="hidden"
-                        animate={control}
-                        ref={ref}
-                    >
-                        <div className="flex w-[60vw] flex-row bg-transparent justify-between">
-                            <img src={audeara} className="w-[30vw] ml-0" />
-                            <p>some text</p>
-                        </div>
-                    </motion.div>
                 </div>
+                <motion.div
+                    id="about"
+                    className="flex"
+                    variants={boxVariant}
+                    initial="hidden"
+                    animate={control}
+                    ref={ref}
+                >
+                    <div className="bg-black w-5/6 ml-10">
+                        <WorkCarousel />
+                    </div>
+                </motion.div>
             </div>
         </>
     );

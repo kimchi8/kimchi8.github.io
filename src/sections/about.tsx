@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import MiniConnectBar from "../components/miniConnectBar";
 
 const boxVariant = {
-    visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
+    visible: { opacity: 10, scale: 1, transition: { duration: 0.4 } },
     hidden: { opacity: 0, scale: 0 },
 };
 

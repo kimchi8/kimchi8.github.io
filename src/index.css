@@ -8,3 +8,20 @@
     color:#2644F5;
 }
 
+.swiper-pagination-bullet-active {
+     background-color: #2644F5 !important;
+}
+
+.swiper-button-prev {
+    color: #2644F5 !important;
+}
+.swiper-button-prev:hover {
+    color: #D9D9D9 !important;
+}
+
+.swiper-button-prev:hover {
+    color: #D9D9D9 !important;
+}
+.swiper-button-next {
+    color: #2644F5 !important;
+}
