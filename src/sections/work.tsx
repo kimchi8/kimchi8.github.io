@@ -4,6 +4,7 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import WorkCarousel from "../components/workCarousel";
+import MiniConnectBar from "../components/miniConnectBar";
 
 const boxVariant = {
     visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },

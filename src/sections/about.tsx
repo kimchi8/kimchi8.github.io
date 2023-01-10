@@ -6,8 +6,8 @@ import { useEffect } from "react";
 import MiniConnectBar from "../components/miniConnectBar";
 
 const boxVariant = {
-    visible: { opacity: 10, scale: 1, transition: { duration: 0.4 } },
-    hidden: { opacity: 0, scale: 0 },
+    visible: { opacity: 1, y: [300, 0, 0], transition: { duration: 1.2 } },
+    hidden: { opacity: 0, scale: 1 },
 };
 
 function About() {
@@ -34,7 +34,7 @@ function About() {
                 <MiniConnectBar />
             </div>
             <div id="container-about-card" className="relative flex z-0 ">
-                <img src={aboutCard} className="ml-[18vw] z-0" />
+                <img src={aboutCard} className="ml-[14vw] z-0" />
                 <h1 className="absolute left-[20vw] top-[-5vh] text-6xl bg-transparent z-0">About</h1>
                 <p className="absolute top-20 left-[20vw] bg-transparent font-raleway font-bold text-black">
                     some text

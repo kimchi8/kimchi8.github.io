@@ -5,6 +5,7 @@ import { Pagination, Navigation, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import MiniConnectBar from "./miniConnectBar";
 
 function WorkCarousel() {
     return (
@@ -20,6 +21,9 @@ function WorkCarousel() {
                     <div className="flex w-[60vw] flex-row bg-transparent justify-between">
                         <img src={audeara} className="w-[30vw] ml-0" />
                         <p>some text</p>
+                        <div className="absolute">
+                            <MiniConnectBar />
+                        </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>Slide 2</SwiperSlide>
