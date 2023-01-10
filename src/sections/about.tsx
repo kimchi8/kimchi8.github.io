@@ -39,7 +39,7 @@ function About() {
                     <p className="bg-transparent font-raleway font-thin text-black pb-10">
                         I am currently studying for my Bachelor in Computer Science at the University of Queensland.
                     </p>
-                    <p className="bg-transparent font-raleway font-thin text-black">
+                    <p className="bg-transparent font-raleway font-thin text-black pb-10">
                         I also work as a web developer at eLIPSE and love to take on new opportunities related to all
                         things design, code & tech.
                     </p>

@@ -1,5 +1,10 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import audeara from "../images/companies/audeara.png";
+import swyftx from "../images/companies/swyftx.png";
+import uq from "../images/companies/uq.png";
+import ventures from "../images/companies/ventures.png";
+import elipse from "../images/companies/elipse.png";
+import lit from "../images/companies/lit.png";
 
 import { Pagination, Navigation, Autoplay } from "swiper";
 import "swiper/css";
@@ -12,6 +17,7 @@ function WorkCarousel() {
         <>
             <Swiper
                 navigation={true}
+                loop={true}
                 modules={[Pagination, Navigation, Autoplay]}
                 pagination={{ clickable: true }}
                 className=" h-[80vh]"
@@ -20,20 +26,65 @@ function WorkCarousel() {
                 <SwiperSlide className="mt-10">
                     <div className="flex w-[60vw] flex-row bg-transparent justify-between">
                         <img src={audeara} className="w-[30vw] ml-0" />
-                        <p>some text</p>
+                        <p>Developed a login authentication site using Firebase + Javascript</p>
                         <div className="absolute">
                             <MiniConnectBar />
                         </div>
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>Slide 2</SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
-                <SwiperSlide>Slide 5</SwiperSlide>
-                <SwiperSlide>Slide 6</SwiperSlide>
-                <SwiperSlide>Slide 7</SwiperSlide>
-                <SwiperSlide>Slide 8</SwiperSlide>
-                <SwiperSlide>Slide 9</SwiperSlide>
+                <SwiperSlide>
+                    <div className="flex w-[60vw] flex-row bg-transparent justify-between">
+                        <img src={swyftx} className="w-[30vw] ml-0" />
+                        <p>
+                            Collaborated in a team of 6, developing a new feature aimed at introducing and education
+                            users to cryptocurrency Acted as a product manager, front-end coder and team leader in the
+                            team Used React, Typescript & Figma as front-end stack Created and presented several pitches
+                            to the Swyftx team
+                        </p>
+                        <div className="absolute">
+                            <MiniConnectBar />
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="flex w-[60vw] flex-row bg-transparent justify-between">
+                        <img src={ventures} className="w-[30vw] ml-0" />
+                        <p>
+                            Represented and promoted UQ's entreprenurial start-up space throughout a range of community
+                            led events
+                        </p>
+                        <div className="absolute">
+                            <MiniConnectBar />
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="flex w-[60vw] flex-row bg-transparent justify-between">
+                        <img src={elipse} className="w-[30vw] ml-0" />
+                        <p>web developer stuff</p>
+                        <div className="absolute">
+                            <MiniConnectBar />
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="flex w-[60vw] flex-row bg-transparent justify-between">
+                        <img src={lit} className="w-[30vw] ml-0" />
+                        <p>marketing</p>
+                        <div className="absolute">
+                            <MiniConnectBar />
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="flex w-[60vw] flex-row bg-transparent justify-between">
+                        <img src={uq} className="w-[30vw] ml-0" />
+                        <p>student stuff</p>
+                        <div className="absolute">
+                            <MiniConnectBar />
+                        </div>
+                    </div>
+                </SwiperSlide>
             </Swiper>
         </>
     );
