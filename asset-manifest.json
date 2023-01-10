@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kimchi8/kimchi8.github.io/tree/develop/static/css/main.068de2c5.css",
-    "main.js": "/kimchi8/kimchi8.github.io/tree/develop/static/js/main.7877e5fd.js",
+    "main.js": "/kimchi8/kimchi8.github.io/tree/develop/static/js/main.31f0a602.js",
     "static/js/787.28cb0dcd.chunk.js": "/kimchi8/kimchi8.github.io/tree/develop/static/js/787.28cb0dcd.chunk.js",
     "static/media/uq.png": "/kimchi8/kimchi8.github.io/tree/develop/static/media/uq.877a76f364b9e3861b57.png",
     "static/media/actual-kimchi.jpeg": "/kimchi8/kimchi8.github.io/tree/develop/static/media/actual-kimchi.1be0f69e859b7e2c50b8.jpeg",
@@ -15,11 +15,11 @@
     "static/media/work.svg": "/kimchi8/kimchi8.github.io/tree/develop/static/media/work.dcf3483fccbba5dd1611644c4d8debc8.svg",
     "index.html": "/kimchi8/kimchi8.github.io/tree/develop/index.html",
     "main.068de2c5.css.map": "/kimchi8/kimchi8.github.io/tree/develop/static/css/main.068de2c5.css.map",
-    "main.7877e5fd.js.map": "/kimchi8/kimchi8.github.io/tree/develop/static/js/main.7877e5fd.js.map",
+    "main.31f0a602.js.map": "/kimchi8/kimchi8.github.io/tree/develop/static/js/main.31f0a602.js.map",
     "787.28cb0dcd.chunk.js.map": "/kimchi8/kimchi8.github.io/tree/develop/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.068de2c5.css",
-    "static/js/main.7877e5fd.js"
+    "static/js/main.31f0a602.js"
   ]
 }
