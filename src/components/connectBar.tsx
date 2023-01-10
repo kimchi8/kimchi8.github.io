@@ -18,10 +18,10 @@ function ConnectBar() {
                 </div>
                 <div id="middle-line" className=" h-[40em] border-ultramarine border-x-2  absolute left-24"></div>
                 <div id="connect-icons" className="flex flex-col gap-5 absolute bottom-56 left-12">
-                    <a href="https://www.linkedin.com/in/kim-gao-71a295184/" target="_blank">
+                    <a href="https://www.linkedin.com/in/kim-gao-71a295184/" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} size="2x" />
                     </a>
-                    <a href="https://github.com/kimchi8" target="_blank">
+                    <a href="https://github.com/kimchi8" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faGithub} size="2x" />
                     </a>
                     <a href="mailto: kimmygao808@gmail.com ">

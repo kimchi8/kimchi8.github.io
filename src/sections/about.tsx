@@ -33,7 +33,7 @@ function About() {
                 <MiniConnectBar />
             </div>
             <div id="container-about-card" className="relative flex z-0 ">
-                <img src={aboutCard} className="ml-[14vw] z-0" />
+                <img src={aboutCard} alt="a card with rounded borders shape" className="ml-[14vw] z-0" />
                 <h1 className="absolute left-[20vw] top-[-3vh] text-6xl bg-transparent z-0">About</h1>
                 <div className="absolute top-20 w-1/2 left-[20vw] bg-transparent font-raleway font-bold text-black">
                     <p className="bg-transparent font-raleway font-thin text-black pb-10">
@@ -44,7 +44,7 @@ function About() {
                         things design, code & tech.
                     </p>
                 </div>
-                <img src={actualKimchi} className="absolute right-[-10vw] top-20 w-2/6" />
+                <img src={actualKimchi} alt="kim" className="absolute right-[-10vw] top-20 w-2/6" />
                 <p className="absolute right-[-3.5vw] top-[73vh] bg-transparent text-[.7em]">
                     Selfie of Me, Circa 2022
                 </p>

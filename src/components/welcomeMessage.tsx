@@ -31,7 +31,7 @@ function WelcomeMessage() {
                 whileHover={{ rotate: [0, 18, 0, 0, 0] }}
                 className="col-span-2 w-4/6 ml-14"
             >
-                <img src={kimchi} />
+                <img alt="characterised kimchi" src={kimchi} />
             </motion.div>
         </div>
     );

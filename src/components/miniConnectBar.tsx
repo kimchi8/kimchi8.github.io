@@ -15,10 +15,10 @@ function MiniConnectBar() {
                     className=" w-[20em] border-ultramarine border-y-2 absolute left-[43vw] top-[-7vh]"
                 ></div>
                 <div id="connect-icons" className="flex flex-row gap-5 absolute bottom-28 left-[52vw]">
-                    <a href="https://www.linkedin.com/in/kim-gao-71a295184/" target="_blank">
+                    <a href="https://www.linkedin.com/in/kim-gao-71a295184/" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} size="2x" />
                     </a>
-                    <a href="https://github.com/kimchi8" target="_blank">
+                    <a href="https://github.com/kimchi8" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faGithub} size="2x" />
                     </a>
                     <a href="mailto: kimmygao808@gmail.com ">

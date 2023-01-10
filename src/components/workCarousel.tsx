@@ -25,7 +25,7 @@ function WorkCarousel() {
             >
                 <SwiperSlide className="mt-10">
                     <div className="flex w-[60vw] flex-row bg-transparent justify-between">
-                        <img src={audeara} className="w-[30vw] ml-0" />
+                        <img alt="audeara-logo" src={audeara} className="w-[30vw] ml-0" />
                         <p>Developed a login authentication site using Firebase + Javascript</p>
                         <div className="absolute">
                             <MiniConnectBar />
@@ -34,7 +34,7 @@ function WorkCarousel() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="flex w-[60vw] flex-row bg-transparent justify-between">
-                        <img src={swyftx} className="w-[30vw] ml-0" />
+                        <img alt="swyftx-logo" src={swyftx} className="w-[30vw] ml-0" />
                         <p>
                             Collaborated in a team of 6, developing a new feature aimed at introducing and education
                             users to cryptocurrency Acted as a product manager, front-end coder and team leader in the
@@ -48,7 +48,7 @@ function WorkCarousel() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="flex w-[60vw] flex-row bg-transparent justify-between">
-                        <img src={ventures} className="w-[30vw] ml-0" />
+                        <img alt="ventures-logo" src={ventures} className="w-[30vw] ml-0" />
                         <p>
                             Represented and promoted UQ's entreprenurial start-up space throughout a range of community
                             led events
@@ -60,7 +60,7 @@ function WorkCarousel() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="flex w-[60vw] flex-row bg-transparent justify-between">
-                        <img src={elipse} className="w-[30vw] ml-0" />
+                        <img alt="elipse-logo" src={elipse} className="w-[30vw] ml-0" />
                         <p>web developer stuff</p>
                         <div className="absolute">
                             <MiniConnectBar />
@@ -69,7 +69,7 @@ function WorkCarousel() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="flex w-[60vw] flex-row bg-transparent justify-between">
-                        <img src={lit} className="w-[30vw] ml-0" />
+                        <img alt="lit-logo" src={lit} className="w-[30vw] ml-0" />
                         <p>marketing</p>
                         <div className="absolute">
                             <MiniConnectBar />
@@ -78,7 +78,7 @@ function WorkCarousel() {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="flex w-[60vw] flex-row bg-transparent justify-between">
-                        <img src={uq} className="w-[30vw] ml-0" />
+                        <img alt="uq-logo" src={uq} className="w-[30vw] ml-0" />
                         <p>student stuff</p>
                         <div className="absolute">
                             <MiniConnectBar />
