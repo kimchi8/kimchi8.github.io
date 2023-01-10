@@ -8,6 +8,10 @@ function Navbar() {
     const [aboutUnderline, setAboutUnderline] = useState(false);
     const [workUnderline, setWorkUnderline] = useState(false);
 
+    /**
+     * This styling handles the wave animation when you hover over
+     * home,about or work
+     */
     const waveAnimationCss = `relative z-1000 overflow-hidden pb-2
                         decoration-2
                         before:content-[attr(data-text)attr(data-text)] 
@@ -17,10 +21,19 @@ function Navbar() {
                         before:text-transparent hover:before:animate-wave
                         hover:cursor-pointer
                         `;
+
+    const scrollToSection = (sectionName: string) => {
+        const element = document.getElementById(sectionName);
+        if (element) {
+            // 👇 Will scroll smoothly to the top of the next section
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
-        <div className="w-screen h-10 fixed pb-14 z-1000">
-            <div className="justify-center items-center text-center pt-5 fixed left-[42%]">
-                <ul className="flex flex-row gap-14 ">
+        <div className="w-screen h-10 absolute pb-14 bg-transparent" style={{ zIndex: 1, padding: "1vw" }}>
+            <div className="justify-center items-center text-center pt-5 fixed left-[42%] bg-transparent">
+                <ul className="flex flex-row gap-14 bg-transparent ">
                     <li
                         data-text="Home"
                         onMouseOver={() => {
@@ -29,7 +42,10 @@ function Navbar() {
                         onMouseLeave={() => {
                             setHomeUnderline(false);
                         }}
-                        className={homeUnderline ? `${waveAnimationCss}` : "underline-none"}
+                        onClick={() => {
+                            scrollToSection("home");
+                        }}
+                        className={`${homeUnderline ? `${waveAnimationCss}` : "underline-none"} bg-transparent `}
                     >
                         <Link activeClass="active" to="welcome" spy={true} smooth={true} duration={500}></Link>
                         Home
@@ -42,7 +58,10 @@ function Navbar() {
                         onMouseLeave={() => {
                             setAboutUnderline(false);
                         }}
-                        className={aboutUnderline ? `${waveAnimationCss}` : "underline-none"}
+                        onClick={() => {
+                            scrollToSection("about");
+                        }}
+                        className={`${aboutUnderline ? `${waveAnimationCss}` : "underline-none"} bg-transparent `}
                     >
                         About
                     </li>
@@ -54,7 +73,10 @@ function Navbar() {
                         onMouseLeave={() => {
                             setWorkUnderline(false);
                         }}
-                        className={workUnderline ? `${waveAnimationCss}` : "underline-none"}
+                        onClick={() => {
+                            scrollToSection("work");
+                        }}
+                        className={`${workUnderline ? `${waveAnimationCss}` : "underline-none"} bg-transparent `}
                     >
                         Work
                     </li>

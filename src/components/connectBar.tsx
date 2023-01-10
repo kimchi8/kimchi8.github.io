@@ -2,10 +2,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { motion } from "framer-motion";
 
 function ConnectBar() {
     return (
-        <div className="flex flex-row">
+        <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1, x: [0, 200, 0], transition: { duration: 1 } }}
+            exit={{ opacity: 0 }}
+            className="flex flex-row"
+        >
             <div className="mt-10">
                 <div id="connect-text" className="whitespace-pre-line absolute left-28">
                     {"c \n o \n n \n n \n e \n c \n t"}
@@ -23,7 +29,7 @@ function ConnectBar() {
                     </a>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 }
 
