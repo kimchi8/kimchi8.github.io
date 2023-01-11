@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/develop/static/css/main.068de2c5.css",
-    "main.js": "/develop/static/js/main.e00ff3e8.js",
-    "static/js/787.28cb0dcd.chunk.js": "/develop/static/js/787.28cb0dcd.chunk.js",
-    "static/media/uq.png": "/develop/static/media/uq.877a76f364b9e3861b57.png",
-    "static/media/actual-kimchi.jpeg": "/develop/static/media/actual-kimchi.1be0f69e859b7e2c50b8.jpeg",
-    "static/media/audeara.png": "/develop/static/media/audeara.8b70b6d6666ae3f4dda3.png",
-    "static/media/swyftx.png": "/develop/static/media/swyftx.d423647a4de4d71ed185.png",
-    "static/media/lit.png": "/develop/static/media/lit.6a531134061300c25e98.png",
-    "static/media/elipse.png": "/develop/static/media/elipse.fcfd411872bdff4b3993.png",
-    "static/media/ventures.png": "/develop/static/media/ventures.06d67a8890b86a6d9255.png",
-    "static/media/kimchi.png": "/develop/static/media/kimchi.abb54d7d3b72431b5ac3.png",
-    "static/media/work-blank.svg": "/develop/static/media/work-blank.b6a5a75b8c1cf57a9357a0f158091f03.svg",
-    "static/media/work.svg": "/develop/static/media/work.dcf3483fccbba5dd1611644c4d8debc8.svg",
-    "index.html": "/develop/index.html",
-    "main.068de2c5.css.map": "/develop/static/css/main.068de2c5.css.map",
-    "main.e00ff3e8.js.map": "/develop/static/js/main.e00ff3e8.js.map",
-    "787.28cb0dcd.chunk.js.map": "/develop/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/static/css/main.068de2c5.css",
+    "main.js": "/static/js/main.d13ae00c.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/uq.png": "/static/media/uq.877a76f364b9e3861b57.png",
+    "static/media/actual-kimchi.jpeg": "/static/media/actual-kimchi.1be0f69e859b7e2c50b8.jpeg",
+    "static/media/audeara.png": "/static/media/audeara.8b70b6d6666ae3f4dda3.png",
+    "static/media/swyftx.png": "/static/media/swyftx.d423647a4de4d71ed185.png",
+    "static/media/lit.png": "/static/media/lit.6a531134061300c25e98.png",
+    "static/media/elipse.png": "/static/media/elipse.fcfd411872bdff4b3993.png",
+    "static/media/ventures.png": "/static/media/ventures.06d67a8890b86a6d9255.png",
+    "static/media/kimchi.png": "/static/media/kimchi.abb54d7d3b72431b5ac3.png",
+    "static/media/work-blank.svg": "/static/media/work-blank.b6a5a75b8c1cf57a9357a0f158091f03.svg",
+    "static/media/work.svg": "/static/media/work.dcf3483fccbba5dd1611644c4d8debc8.svg",
+    "index.html": "/index.html",
+    "main.068de2c5.css.map": "/static/css/main.068de2c5.css.map",
+    "main.d13ae00c.js.map": "/static/js/main.d13ae00c.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.068de2c5.css",
-    "static/js/main.e00ff3e8.js"
+    "static/js/main.d13ae00c.js"
   ]
 }
