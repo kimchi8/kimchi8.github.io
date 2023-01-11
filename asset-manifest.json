@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.068de2c5.css",
-    "main.js": "/static/js/main.d13ae00c.js",
+    "main.js": "/static/js/main.1ec5d78d.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/uq.png": "/static/media/uq.877a76f364b9e3861b57.png",
     "static/media/actual-kimchi.jpeg": "/static/media/actual-kimchi.1be0f69e859b7e2c50b8.jpeg",
@@ -15,11 +15,11 @@
     "static/media/work.svg": "/static/media/work.dcf3483fccbba5dd1611644c4d8debc8.svg",
     "index.html": "/index.html",
     "main.068de2c5.css.map": "/static/css/main.068de2c5.css.map",
-    "main.d13ae00c.js.map": "/static/js/main.d13ae00c.js.map",
+    "main.1ec5d78d.js.map": "/static/js/main.1ec5d78d.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.068de2c5.css",
-    "static/js/main.d13ae00c.js"
+    "static/js/main.1ec5d78d.js"
   ]
 }
