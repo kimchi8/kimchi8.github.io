@@ -25,7 +25,7 @@ function Work() {
             <div className="mt-[30vh] ml-40">
                 <div>
                     <div id="imgBx" className="flex ml-40">
-                        <div id="work-title-container" className="h-[116vh] mb-10 bg-transparent ">
+                        <div id="work-title-container" className="lg:h-[120vh] 2xl:h-[115vh] mb-10 bg-transparent ">
                             <div id="blank-audera-text" className="sticky top-[11.5rem] bg-transparent ml-16">
                                 <div className=" w-10 bg-transparent tracking-widest">
                                     <WorkText className="bg-transparent w-48 " />

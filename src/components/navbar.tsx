@@ -3,6 +3,14 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
 
+export const scrollToSection = (sectionName: string) => {
+    const element = document.getElementById(sectionName);
+    if (element) {
+        // 👇 Will scroll smoothly to the top of the next section
+        element.scrollIntoView({ behavior: "smooth" });
+    }
+};
+
 function Navbar() {
     const [homeUnderline, setHomeUnderline] = useState(false);
     const [aboutUnderline, setAboutUnderline] = useState(false);
@@ -22,16 +30,11 @@ function Navbar() {
                         hover:cursor-pointer
                         `;
 
-    const scrollToSection = (sectionName: string) => {
-        const element = document.getElementById(sectionName);
-        if (element) {
-            // 👇 Will scroll smoothly to the top of the next section
-            element.scrollIntoView({ behavior: "smooth" });
-        }
-    };
-
     return (
-        <div className="w-screen h-10 absolute pb-14 bg-transparent" style={{ zIndex: 1, padding: "1vw" }}>
+        <div
+            className="xs:hidden sm:hidden md:block w-screen h-10 absolute pb-14 bg-transparent"
+            style={{ zIndex: 1, padding: "1vw" }}
+        >
             <div className="justify-center items-center text-center pt-5 fixed left-[42%] bg-transparent">
                 <ul className="flex flex-row gap-14 bg-transparent ">
                     <li

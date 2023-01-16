@@ -4,6 +4,14 @@ const colors = require('tailwindcss/colors')
 module.exports = {
   content: ["./src/**/*.{html,js,tsx}"],
   theme: {
+    screens: {
+      'xs': '100px',
+      'sm': '340px',
+      'md': '767px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
     extend: {
       keyframes: {
         wave: {
@@ -13,7 +21,8 @@ module.exports = {
         }
       },
       colors: {
-        ultramarine: "#2644F5"
+        ultramarine: "#2644F5",
+        butter: "#FCF8E5"
       }
     },
     animation: {

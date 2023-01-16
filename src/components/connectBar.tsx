@@ -12,7 +12,7 @@ function ConnectBar() {
             exit={{ opacity: 0 }}
             className="flex flex-row"
         >
-            <div className="mt-10">
+            <div className="mt-10 2xl:mt-32">
                 <div id="connect-text" className="whitespace-pre-line absolute left-28">
                     {"c \n o \n n \n n \n e \n c \n t"}
                 </div>
