@@ -32,7 +32,7 @@ function Navbar() {
 
     return (
         <div
-            className="xs:hidden sm:hidden md:block w-screen h-10 absolute pb-14 bg-transparent"
+            className="xs:hidden sm:hidden lg:block w-screen h-10 absolute pb-14 bg-transparent"
             style={{ zIndex: 1, padding: "1vw" }}
         >
             <div className="justify-center items-center text-center pt-5 fixed left-[42%] bg-transparent">

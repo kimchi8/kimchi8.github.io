@@ -11,7 +11,7 @@ function App() {
             <MobileNavBar />
             <Navbar />
             <ConnectBar />
-            {/* <WelcomeMessage /> */}
+            <WelcomeMessage />
             {/* <About /> */}
             {/* <Work /> */}
         </div>
