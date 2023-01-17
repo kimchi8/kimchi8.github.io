@@ -13,11 +13,21 @@ function ConnectBar() {
             className="flex flex-row"
         >
             <div className="mt-10 2xl:mt-32">
-                <div id="connect-text" className="whitespace-pre-line absolute left-28">
+                <div
+                    id="connect-text"
+                    // className="whitespace-pre-line absolute left-28"
+                    className="lg:whitespace-pre-line absolute lg:left-28 lg:top-20 xs:bottom-4 xs:whitespace-normal xs:left-10 lg:block"
+                >
                     {"c \n o \n n \n n \n e \n c \n t"}
                 </div>
-                <div id="middle-line" className=" h-[40em] border-ultramarine border-x-2  absolute left-24"></div>
-                <div id="connect-icons" className="flex flex-col gap-5 absolute bottom-56 left-12">
+                <div
+                    id="middle-line"
+                    className="xs:h-[35em] md:h-[40em] border-ultramarine border-x-2 absolute left-24 xs:hidden lg:block"
+                ></div>
+                <div
+                    id="connect-icons"
+                    className="flex lg:flex-col xs:flex-row gap-5 absolute xs:bottom-10 xs:left-11 lg:bottom-56 lg:left-12"
+                >
                     <a href="https://www.linkedin.com/in/kim-gao-71a295184/" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} size="2x" />
                     </a>
