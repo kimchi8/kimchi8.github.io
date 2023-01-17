@@ -15,7 +15,6 @@ function ConnectBar() {
             <div className="mt-10 2xl:mt-32">
                 <div
                     id="connect-text"
-                    // className="whitespace-pre-line absolute left-28"
                     className="lg:whitespace-pre-line absolute lg:left-28 lg:top-20 xs:bottom-4 xs:whitespace-normal xs:left-10 lg:block"
                 >
                     {"c \n o \n n \n n \n e \n c \n t"}
