@@ -3,6 +3,17 @@ const colors = require('tailwindcss/colors')
 
 module.exports = {
   content: ["./src/**/*.{html,js,tsx}"],
+  daisyui: {
+    themes: [
+      {
+        light: {
+          ...require("daisyui/src/colors/themes")["[data-theme=light]"],
+          primary: "#2644F5",
+
+        },
+      },
+    ],
+  },
   theme: {
     screens: {
       'xs': '100px',
