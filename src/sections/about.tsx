@@ -23,15 +23,12 @@ function About() {
     }, [control, inView]);
     return (
         <motion.div
-            className="flex justify-center mt-64 w-4/6"
+            className="flex justify-center sm:mt-8 md:mt-4 md:py-5 lg:mt-64 lg:py-44 w-4/6 "
             variants={boxVariant}
             initial="hidden"
             animate={control}
             ref={ref}
         >
-            <div id="about" className="absolute">
-                <MiniConnectBar />
-            </div>
             <div id="container-about-card" className="relative flex z-0 ">
                 <img src={aboutCard} alt="a card with rounded borders shape" className="ml-[14vw] z-0" />
                 <h1 className="absolute left-[20vw] top-[-3vh] text-6xl bg-transparent z-0">About</h1>

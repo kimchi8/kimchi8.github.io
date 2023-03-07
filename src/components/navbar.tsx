@@ -32,59 +32,57 @@ function Navbar() {
 
     return (
         <div
-            className="xs:hidden sm:hidden lg:block w-screen h-10 absolute pb-14 bg-transparent"
+            className="flex w-screen h-24 bg-transparent justify-center items-center text-center"
             style={{ zIndex: 1, padding: "1vw" }}
         >
-            <div className="justify-center items-center text-center pt-5 fixed left-[42%] bg-transparent">
-                <ul className="flex flex-row gap-14 bg-transparent ">
-                    <li
-                        data-text="Home"
-                        onMouseOver={() => {
-                            setHomeUnderline(true);
-                        }}
-                        onMouseLeave={() => {
-                            setHomeUnderline(false);
-                        }}
-                        onClick={() => {
-                            scrollToSection("home");
-                        }}
-                        className={`${homeUnderline ? `${waveAnimationCss}` : "underline-none"} bg-transparent `}
-                    >
-                        <Link activeClass="active" to="welcome" spy={true} smooth={true} duration={500}></Link>
-                        Home
-                    </li>
-                    <li
-                        data-text="About"
-                        onMouseOver={() => {
-                            setAboutUnderline(true);
-                        }}
-                        onMouseLeave={() => {
-                            setAboutUnderline(false);
-                        }}
-                        onClick={() => {
-                            scrollToSection("about");
-                        }}
-                        className={`${aboutUnderline ? `${waveAnimationCss}` : "underline-none"} bg-transparent `}
-                    >
-                        About
-                    </li>
-                    <li
-                        data-text="Work"
-                        onMouseOver={() => {
-                            setWorkUnderline(true);
-                        }}
-                        onMouseLeave={() => {
-                            setWorkUnderline(false);
-                        }}
-                        onClick={() => {
-                            scrollToSection("work");
-                        }}
-                        className={`${workUnderline ? `${waveAnimationCss}` : "underline-none"} bg-transparent `}
-                    >
-                        Work
-                    </li>
-                </ul>
-            </div>
+            <ul className="flex flex-row gap-14 bg-transparent ">
+                <li
+                    data-text="Home"
+                    onMouseOver={() => {
+                        setHomeUnderline(true);
+                    }}
+                    onMouseLeave={() => {
+                        setHomeUnderline(false);
+                    }}
+                    onClick={() => {
+                        scrollToSection("home");
+                    }}
+                    className={`${homeUnderline ? `${waveAnimationCss}` : "underline-none"} bg-transparent `}
+                >
+                    <Link activeClass="active" to="welcome" spy={true} smooth={true} duration={500}></Link>
+                    Home
+                </li>
+                <li
+                    data-text="About"
+                    onMouseOver={() => {
+                        setAboutUnderline(true);
+                    }}
+                    onMouseLeave={() => {
+                        setAboutUnderline(false);
+                    }}
+                    onClick={() => {
+                        scrollToSection("about");
+                    }}
+                    className={`${aboutUnderline ? `${waveAnimationCss}` : "underline-none"} bg-transparent `}
+                >
+                    About
+                </li>
+                <li
+                    data-text="Work"
+                    onMouseOver={() => {
+                        setWorkUnderline(true);
+                    }}
+                    onMouseLeave={() => {
+                        setWorkUnderline(false);
+                    }}
+                    onClick={() => {
+                        scrollToSection("work");
+                    }}
+                    className={`${workUnderline ? `${waveAnimationCss}` : "underline-none"} bg-transparent `}
+                >
+                    Work
+                </li>
+            </ul>
         </div>
     );
 }

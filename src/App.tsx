@@ -8,11 +8,11 @@ import MobileNavBar from "./components/mobileNavBar";
 function App() {
     return (
         <div className="App">
-            <MobileNavBar />
+            {/* <MobileNavBar /> */}
             <Navbar />
             <ConnectBar />
             <WelcomeMessage />
-            {/* <About /> */}
+            <About />
             {/* <Work /> */}
         </div>
     );

@@ -7,25 +7,23 @@ import { motion } from "framer-motion";
 function ConnectBar() {
     return (
         <motion.div
+            id="connect-bar-animation-container"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, x: [0, 200, 0], transition: { duration: 1 } }}
             exit={{ opacity: 0 }}
-            className="flex flex-row"
+            className="flex flex-row sticky 2xl:top-10 top-0 max-lg:hidden"
         >
-            <div className="mt-10 2xl:mt-32">
-                <div
-                    id="connect-text"
-                    className="lg:whitespace-pre-line absolute lg:left-28 lg:top-20 xs:bottom-4 xs:whitespace-normal xs:left-10 lg:block"
-                >
+            <div id="connect-bar-container" className="mt-10 2xl:mt-36">
+                <div id="connect-text" className="whitespace-pre-line absolute left-28 max-xl:top-12 2xl:top-24">
                     {"c \n o \n n \n n \n e \n c \n t"}
                 </div>
                 <div
                     id="middle-line"
-                    className="xs:h-[35em] md:h-[40em] border-ultramarine border-x-2 absolute left-24 xs:hidden lg:block"
+                    className="md:h-[40em] border-ultramarine border-x-2 absolute left-24 block"
                 ></div>
                 <div
                     id="connect-icons"
-                    className="flex lg:flex-col xs:flex-row gap-5 absolute xs:bottom-10 xs:left-11 lg:bottom-56 lg:left-12"
+                    className="flex lg:flex-col xs:flex-row gap-5 absolute ml-10 lg:-bottom-[90vh] 2xl:-bottom-[65vh]"
                 >
                     <a href="https://www.linkedin.com/in/kim-gao-71a295184/" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} size="2x" />
