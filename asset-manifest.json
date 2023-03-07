@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.068de2c5.css",
-    "main.js": "/static/js/main.1ec5d78d.js",
+    "main.css": "/static/css/main.f633b04d.css",
+    "main.js": "/static/js/main.98fb5922.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/uq.png": "/static/media/uq.877a76f364b9e3861b57.png",
     "static/media/actual-kimchi.jpeg": "/static/media/actual-kimchi.1be0f69e859b7e2c50b8.jpeg",
@@ -14,12 +14,12 @@
     "static/media/work-blank.svg": "/static/media/work-blank.b6a5a75b8c1cf57a9357a0f158091f03.svg",
     "static/media/work.svg": "/static/media/work.dcf3483fccbba5dd1611644c4d8debc8.svg",
     "index.html": "/index.html",
-    "main.068de2c5.css.map": "/static/css/main.068de2c5.css.map",
-    "main.1ec5d78d.js.map": "/static/js/main.1ec5d78d.js.map",
+    "main.f633b04d.css.map": "/static/css/main.f633b04d.css.map",
+    "main.98fb5922.js.map": "/static/js/main.98fb5922.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.068de2c5.css",
-    "static/js/main.1ec5d78d.js"
+    "static/css/main.f633b04d.css",
+    "static/js/main.98fb5922.js"
   ]
 }
