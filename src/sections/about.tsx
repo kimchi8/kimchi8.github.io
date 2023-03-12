@@ -1,9 +1,7 @@
-import aboutCard from "../images/about-card.png";
 import actualKimchi from "../images/actual-kimchi.jpeg";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
-import MiniConnectBar from "../components/miniConnectBar";
 
 const boxVariant = {
     visible: { opacity: 1, y: [300, 0, 0], transition: { duration: 1.2 } },
@@ -50,7 +48,7 @@ function About() {
                     </div>
                 </div>
                 <figure className="bg-white">
-                    <img src={actualKimchi} alt="photo of kim" className="max-md:hidden" />
+                    <img src={actualKimchi} alt="kim" className="max-md:hidden" />
                 </figure>
             </div>
         </motion.div>

@@ -32,10 +32,10 @@ function Navbar() {
 
     return (
         <div
-            className="flex w-screen h-24 bg-transparent justify-center items-center text-center"
+            className="sm:hidden md:flex lg:flex w-screen h-24 bg-transparent justify-center items-center text-center fixed"
             style={{ zIndex: 1, padding: "1vw" }}
         >
-            <ul className="flex flex-row gap-14 bg-transparent ">
+            <ul className="flex flex-row gap-14 p-10 rounded-br-3xl rounded-bl-3xl">
                 <li
                     data-text="Home"
                     onMouseOver={() => {
@@ -45,7 +45,7 @@ function Navbar() {
                         setHomeUnderline(false);
                     }}
                     onClick={() => {
-                        scrollToSection("home");
+                        scrollToSection("welcome-message-component");
                     }}
                     className={`${homeUnderline ? `${waveAnimationCss}` : "underline-none"} bg-transparent `}
                 >
@@ -61,7 +61,7 @@ function Navbar() {
                         setAboutUnderline(false);
                     }}
                     onClick={() => {
-                        scrollToSection("about");
+                        scrollToSection("about-card-container");
                     }}
                     className={`${aboutUnderline ? `${waveAnimationCss}` : "underline-none"} bg-transparent `}
                 >
@@ -76,7 +76,7 @@ function Navbar() {
                         setWorkUnderline(false);
                     }}
                     onClick={() => {
-                        scrollToSection("work");
+                        scrollToSection("work-carousel");
                     }}
                     className={`${workUnderline ? `${waveAnimationCss}` : "underline-none"} bg-transparent `}
                 >

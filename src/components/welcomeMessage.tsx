@@ -13,13 +13,13 @@ function WelcomeMessage() {
             id="welcome-message-component"
             className="flex justify-center lg:pt-20 max-lg:h-screen max-md:-mt-28 max-md:px-10 items-center"
         >
-            <div className="flex flex-row justify-between bg-transparent max-md:w-full md:w-10/12 lg:w-8/12">
+            <div className="flex max-md:flex-col md:flex-row justify-between bg-transparent max-md:w-full md:w-10/12 lg:w-8/12">
                 <motion.div
                     id="welcome-message-text"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1, x: [0, 200, 0], transition: { duration: 1.5 } }}
                     exit={{ opacity: 0 }}
-                    className="flex flex-col justify-center bg-transparent"
+                    className="flex flex-col justify-center bg-transparent max-md:order-2 md:order-1"
                 >
                     <TypeAnimation
                         sequence={["Hello", 2000, "👋", 2000, "Hello"]}
@@ -46,7 +46,7 @@ function WelcomeMessage() {
                         transition: { duration: 1.7 },
                     }}
                     whileHover={{ rotate: [0, 18, 0, 0, 0] }}
-                    className="max-lg:w-[32vw] lg:w-[25vw] max-md:hidden "
+                    className="max-lg:w-[32vw] lg:w-[25vw] flex max-md:order-1 max-md:pb-10  max-md:pt-56 md:order-2"
                 >
                     <img alt="characterised kimchi" src={kimchi} />
                 </motion.div>

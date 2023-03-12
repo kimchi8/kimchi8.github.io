@@ -11,7 +11,7 @@ function ConnectBar() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, x: [0, 200, 0], transition: { duration: 1 } }}
             exit={{ opacity: 0 }}
-            className="flex flex-row sticky 2xl:top-10 top-0 max-lg:hidden"
+            className="flex flex-row sticky 2xl:top-10 top-0 max-lg:hidden bg-transparent"
         >
             <div id="connect-bar-container" className="mt-10 2xl:mt-36">
                 <div id="connect-text" className="whitespace-pre-line absolute left-28 max-xl:top-12 2xl:top-24">
