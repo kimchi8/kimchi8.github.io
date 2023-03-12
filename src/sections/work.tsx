@@ -53,13 +53,13 @@ function Work() {
                 >
                     <motion.div
                         id="web-tablet-work-carousel"
-                        className="lg:w-screen md:h-0 lg:h-[70vh] md:w-5/6 z-1 bg-transparent"
+                        className="lg:w-screen md:h-0 lg:-mt-[15vh] lg:mb-[80vh] md:w-5/6 z-1 bg-transparent"
                         variants={boxVariant}
                         initial="hidden"
                         animate={control}
                         ref={ref}
                     >
-                        <div className="bg-transparent lg:w-5/6 lg:ml-36 md:ml-5 md:w-[90vw]">
+                        <div className="bg-transparent lg:w-5/6 lg:ml-36 md:ml-5 md:w-[90vw] pt-10">
                             <WorkCarousel isMobile={false} />
                         </div>
                     </motion.div>
