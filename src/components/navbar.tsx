@@ -76,7 +76,7 @@ function Navbar() {
                         setWorkUnderline(false);
                     }}
                     onClick={() => {
-                        scrollToSection("work-carousel");
+                        scrollToSection("work-carousel-containers");
                     }}
                     className={`${workUnderline ? `${waveAnimationCss}` : "underline-none"} bg-transparent `}
                 >

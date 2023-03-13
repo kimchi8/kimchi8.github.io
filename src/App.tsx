@@ -1,14 +1,14 @@
-import Navbar from "./components/navbar";
-import ConnectBar from "./components/connectBar";
-import WelcomeMessage from "./components/welcomeMessage";
-import About from "./sections/about";
-import Work from "./sections/work";
-import MobileNavBar from "./components/mobileNavBar";
+import Navbar from "./components/Navbar";
+import ConnectBar from "./components/ConnectBar";
+import WelcomeMessage from "./components/WelcomeMessage";
+import About from "./sections/About";
+import Work from "./sections/Work";
+import CustomHamburgerMenu from "./components/CustomHamburgerMenu";
 
 function App() {
     return (
         <div className="App">
-            <MobileNavBar />
+            <CustomHamburgerMenu />
             <Navbar />
             <ConnectBar />
             <WelcomeMessage />

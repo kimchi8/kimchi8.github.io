@@ -3,7 +3,7 @@ import { ReactComponent as WorkBlank } from "../images/work-fonts/work-blank.svg
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
-import WorkCarousel from "../components/workCarousel";
+import WorkCarousel from "../components/WorkCarousel";
 
 const boxVariant = {
     visible: { opacity: 1, scale: 1, transition: { duration: 0.5 } },
@@ -11,8 +11,8 @@ const boxVariant = {
 };
 
 /**
- * This renders the work slide down header and the carousel of past projects
- *
+ * This component renders the work section of the site.
+ * It contains the work title slider effect & work carousel animation
  * @returns the work component
  */
 function Work() {

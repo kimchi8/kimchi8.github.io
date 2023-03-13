@@ -31,7 +31,7 @@ function About() {
                 id="about-card-container"
                 className="card card-side lg:w-8/12 md:w-10/12 max-md:w-screen bg-white rounded-3xl shadow-[10px_10px_0px_0px_rgba(38,68,245,1)]"
             >
-                <div id="about-body" className="card-body bg-white rounded-3xl bg-transparent">
+                <div id="about-body" className="card-body bg-white rounded-3xl bg-transparent w-4/6">
                     <h1
                         id="about-title"
                         className="card-title absolute left-[4vw] top-[-4vh] 2xl:top-[-1vw] text-6xl bg-transparent z-0"
@@ -39,15 +39,33 @@ function About() {
                         About
                     </h1>
                     <p className="bg-transparent font-raleway font-thin text-black py-10">
-                        I am currently studying for my Bachelor in Computer Science at the University of Queensland. I
-                        also work as a web developer at eLIPSE and love to take on new opportunities related to all
-                        things design, code & tech.
+                        I'm in my final semester studying for a Bachelor's degree in Computer Science at the University
+                        of Queensland. I love all things related to web development and design and have experience in
+                        programming languages, web development frameworks & programs such as JavaScript, Typescript,
+                        React & Figma. I am also familiar with UI and UX design processes for developing web-based
+                        products for clients.
+                        <br />
+                        <br /> One of my aspirations is to be a leader and role model for other girls in tech. I enjoy
+                        taking on challenges and opportunities which advocate for underrepresented groups in the tech
+                        industry. Some experiences include my time at UQ Ventures as a Student Ambassador for all things
+                        startups and a Marketing Executive for ladies in a technology society.
                     </p>
+
                     <div className="card-actions md:justify-end max-sm:justify-center bg-white">
-                        <button className="btn btn-primary">Checkout my Resume</button>
+                        <button
+                            className="btn btn-primary"
+                            onClick={() => {
+                                window.open(
+                                    "https://drive.google.com/file/d/1UlaQ0iJ_bgkuRo8fH7eVTXeuATSjOluu/view?usp=sharing",
+                                    "_blank"
+                                );
+                            }}
+                        >
+                            Checkout my Resume
+                        </button>
                     </div>
                 </div>
-                <figure className="bg-white">
+                <figure className="bg-white w-2/6">
                     <img src={actualKimchi} alt="kim" className="max-md:hidden" />
                 </figure>
             </div>
