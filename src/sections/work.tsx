@@ -30,10 +30,10 @@ function Work() {
         <div id="work-container" className="w-screen flex flex-col justify-center bg-transparent mt-40 max-md:px-12">
             <div
                 id="work-text-container"
-                className="bg-transparent h-[150vh] max-lg:ml-0 lg:ml-40 lg:mb-0 mb-10 md:px-28 lg:px-0"
+                className="bg-transparent h-[80vh] max-lg:ml-0 lg:ml-40 lg:mb-0 mb-10 md:px-28 lg:px-0"
             >
-                <WorkText className="bg-transparent w-48 sticky z-10 top-[40vh] max-lg:ml-0 lg:ml-40 " />
-                <WorkBlank className="bg-transparent w-48 sticky z-50 top-[40vh] mt-[100vh] max-lg:ml-[.2rem] lg:ml-[10.3rem]" />
+                <WorkText className="bg-transparent w-48 sticky z-10 top-[20vh] max-lg:ml-0 lg:ml-40 " />
+                <WorkBlank className="bg-transparent w-48 sticky z-50 top-[20vh] mt-[55vh] max-lg:ml-[.2rem] lg:ml-[10.3rem]" />
             </div>
             <div id="work-carousel-containers">
                 <motion.div

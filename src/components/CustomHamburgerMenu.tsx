@@ -17,7 +17,9 @@ function CustomHamburgerMenu() {
     return (
         <div
             id="custom-hamburger-container"
-            className={`${isOpen && "h-screen"} relative w-screen transition ease-in-out`}
+            className={`${
+                isOpen && "h-screen"
+            } relative w-screen transition ease-in-out max-md:block md:hidden lg:hidden`}
         >
             <FontAwesomeIcon
                 id="hamburger-icon"

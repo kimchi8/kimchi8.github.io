@@ -31,14 +31,14 @@ function About() {
                 id="about-card-container"
                 className="card card-side lg:w-8/12 md:w-10/12 max-md:w-screen bg-white rounded-3xl shadow-[10px_10px_0px_0px_rgba(38,68,245,1)]"
             >
-                <div id="about-body" className="card-body bg-white rounded-3xl bg-transparent w-4/6">
+                <div id="about-body" className="card-body bg-white rounded-3xl bg-transparent w-4/6 max-md:w-full">
                     <h1
                         id="about-title"
                         className="card-title absolute left-[4vw] top-[-4vh] 2xl:top-[-1vw] text-6xl bg-transparent z-0"
                     >
                         About
                     </h1>
-                    <p className="bg-transparent font-raleway font-thin text-black py-10">
+                    <p className="bg-transparent font-raleway font-thin text-black py-10 max-md:text-center">
                         I'm in my final semester studying for a Bachelor's degree in Computer Science at the University
                         of Queensland. I love all things related to web development and design and have experience in
                         programming languages, web development frameworks & programs such as JavaScript, Typescript,
@@ -51,7 +51,7 @@ function About() {
                         startups and a Marketing Executive for ladies in a technology society.
                     </p>
 
-                    <div className="card-actions md:justify-end max-sm:justify-center bg-white">
+                    <div className="card-actions md:justify-end max-md:justify-center bg-white">
                         <button
                             className="btn btn-primary"
                             onClick={() => {
@@ -65,7 +65,7 @@ function About() {
                         </button>
                     </div>
                 </div>
-                <figure className="bg-white w-2/6">
+                <figure className="bg-white md:w-2/6 max-md:hidden">
                     <img src={actualKimchi} alt="kim" className="max-md:hidden" />
                 </figure>
             </div>
