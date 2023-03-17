@@ -2,35 +2,35 @@
     "workExperiences": [
         {
             "id": "elipse",
-            "description": "Position: Software Developer \n Duration: Nov 2021 - Present \n • Developed education learning tools for university courses and faculties using React, TailwindCSS & MongoDB \n • Collaborated in a team of 7,utlising project management tools like Jira and Bitbucket  \n • Actively participated in code reviews and contributed to the agile methodology \n "
+            "description": "Position: Software Developer \nDuration: Nov 2021 - Present \n\n• Developed education learning tools for university courses and faculties using React, TailwindCSS & MongoDB \n• Collaborated in a team of 7,utlising project management tools like Jira and Bitbucket  \n• Actively participated in code reviews and contributed to the agile methodology \n "
         },
         {
             "id": "lit",
-            "description": "Position: Marketing Executive \n Duration: Jan 2020 - Dec 2022 \n • Created & coordinated marketing campaigns for events to develop a community of women in tech at UQ \n Created graphics and marketing schedules using programs like Canva, Adobe Photoshop & Excel \n  • Managed UQLIT social marketing including their instagram and facebook pages"
+            "description": "Position: Marketing Executive \nDuration: Jan 2020 - Dec 2022 \n\n• Created & coordinated marketing campaigns for events to develop a community of women in tech at UQ \n  • Created graphics and marketing schedules using programs like Canva, Adobe Photoshop & Excel \n  • Managed UQLIT social marketing including their instagram and facebook pages"
         },
         {
             "id": "audeara",
-            "description": "Position: Software Intern \n  Duration: Sep 2021 \n • Developed a login authentication web app using Javascript and Firebase"
+            "description": "Position: Software Intern \n  Duration: Sep 2021 \n\n• Developed a login authentication web app using Javascript and Firebase"
         },
         {
             "id": "studentStaffPartnership",
-            "description": "Position: Student Learning Resource Developer \n Duration: Aug 2020 - May 2021 \n • Served as a member promoting and developing resources based on improving the group-work experience for university students \n • Designed and developed resources using software including Photoshop, Illustrator and Microsoft Word \n • Co-conducted and analysed primary research from interview data using thematic analysis"
+            "description": "Position: Student Learning Resource Developer \nDuration: Aug 2020 - May 2021 \n\n• Served as a member promoting and developing resources based on improving the group-work experience for university students \n• Designed and developed resources using software including Photoshop, Illustrator and Microsoft Word \n• Co-conducted and analysed primary research from interview data using thematic analysis"
         },
         {
             "id": "ventures",
-            "description": "Position: Student Ambassodor \n Duration: Jan 2022 - Jan 2023 \n • Assisted in Leadhers, a program designed to uplift women in confidence & leadership \n • Represented and promoted UQ's startup culture across faculties at events and workshops  \n • Pitched and developed strategies to promote Ventures programs across UQ"
+            "description": "Position: Student Ambassodor \nDuration: Jan 2022 - Jan 2023 \n\n• Assisted in Leadhers, a program designed to uplift women in confidence & leadership \n• Represented and promoted UQ's startup culture across faculties at events and workshops  \n• Pitched and developed strategies to promote Ventures programs across UQ"
         },
         {
             "id": "summerResearch",
-            "description": "Position: Summer Researcher \n Duration: Dec 2020 - Feb 2021 \n • Aided in the creation and development of web-based language resources \n  • Utitlised R and Docker, GitHub and Binder Notebooks \n • Self-managed, prioritised, and organised tasks whilst working remotely with a global team"
+            "description": "Position: Summer Researcher \nDuration: Dec 2020 - Feb 2021 \n\n• Aided in the creation and development of web-based language resources \n  • Utitlised R and Docker, GitHub and Binder Notebooks \n• Self-managed, prioritised, and organised tasks whilst working remotely with a global team"
         },
         {
             "id": "startupVentures",
-            "description": "Position: Marketing Assistant \n Duration: Nov 2022 - Dev 2022 \n • Experienced the startup culture in Singapore's vibrant and fast paced economic environment \n • Developed marketing strategies and posts for a startup foodtech company AuroraFoods \n • Redeveloped & updated the companys wordpress website using industry standard UI/UX processes & principles"
+            "description": "Position: Marketing Assistant \nDuration: Nov 2022 - Dev 2022 \n\n• Experienced the startup culture in Singapore's vibrant and fast paced economic environment \n• Developed marketing strategies and posts for a startup foodtech company AuroraFoods \n• Redeveloped & updated the companys wordpress website using industry standard UI/UX processes & principles"
         },
         {
             "id": "swyftx",
-            "description": "Position: Software Intern \n Duration: July 2022 - July 2022 \n • Developed a new feature aimed at introducing and educating users to cryptocurrency \n • Used React, Typescript & Figma for developing the feature  \n • Created and delivered several pitches to the Swyftx team"
+            "description": "Position: Software Intern \nDuration: July 2022 - July 2022 \n\n• Developed a new feature aimed at introducing and educating users to cryptocurrency \n• Used React, Typescript & Figma for developing the feature  \n• Created and delivered several pitches to the Swyftx team"
         }
     ]
 }

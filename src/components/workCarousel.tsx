@@ -39,7 +39,7 @@ function WorkCarousel(props: WorkCarouselInterface) {
                                     src={require(`../assets/images/companies/${job.id}.png`)}
                                     className="w-[30vw] ml-0"
                                 />
-                                <p className="max-lg:pb-24 flex justify-center items-center text-center lg:text-left px-8">
+                                <p className="max-lg:pb-24 flex justify-center items-center text-center lg:text-left px-8 whitespace-pre-wrap">
                                     {job.description}
                                 </p>
                             </div>
