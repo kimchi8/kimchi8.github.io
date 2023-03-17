@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.77636f7d.css",
-    "main.js": "/static/js/main.c67ac3ea.js",
+    "main.css": "/static/css/main.95151d4d.css",
+    "main.js": "/static/js/main.3ee00be0.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
     "static/media/actual-kimchi.png": "/static/media/actual-kimchi.7f2675cd7eb389c3bfe1.png",
     "static/media/studentStaffPartnership.png": "/static/media/studentStaffPartnership.44b311d1b1de5d833ae6.png",
@@ -17,12 +17,12 @@
     "static/media/work-blank.svg": "/static/media/work-blank.b6a5a75b8c1cf57a9357a0f158091f03.svg",
     "static/media/work.svg": "/static/media/work.dcf3483fccbba5dd1611644c4d8debc8.svg",
     "index.html": "/index.html",
-    "main.77636f7d.css.map": "/static/css/main.77636f7d.css.map",
-    "main.c67ac3ea.js.map": "/static/js/main.c67ac3ea.js.map",
+    "main.95151d4d.css.map": "/static/css/main.95151d4d.css.map",
+    "main.3ee00be0.js.map": "/static/js/main.3ee00be0.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77636f7d.css",
-    "static/js/main.c67ac3ea.js"
+    "static/css/main.95151d4d.css",
+    "static/js/main.3ee00be0.js"
   ]
 }
