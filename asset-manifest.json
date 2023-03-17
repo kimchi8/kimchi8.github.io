@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.97d7fedd.css",
-    "main.js": "/static/js/main.f7356187.js",
+    "main.css": "/static/css/main.77636f7d.css",
+    "main.js": "/static/js/main.41814172.js",
     "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/actual-kimchi.png": "/static/media/actual-kimchi.7f2675cd7eb389c3bfe1.png",
+    "static/media/studentStaffPartnership.png": "/static/media/studentStaffPartnership.44b311d1b1de5d833ae6.png",
     "static/media/uq.png": "/static/media/uq.877a76f364b9e3861b57.png",
-    "static/media/actual-kimchi.jpeg": "/static/media/actual-kimchi.1be0f69e859b7e2c50b8.jpeg",
     "static/media/audeara.png": "/static/media/audeara.8b70b6d6666ae3f4dda3.png",
+    "static/media/startupVentures.png": "/static/media/startupVentures.28a87230bccdbb389e51.png",
     "static/media/swyftx.png": "/static/media/swyftx.d423647a4de4d71ed185.png",
     "static/media/lit.png": "/static/media/lit.6a531134061300c25e98.png",
     "static/media/elipse.png": "/static/media/elipse.fcfd411872bdff4b3993.png",
+    "static/media/summerResearch.png": "/static/media/summerResearch.6df9ca9471483355de29.png",
     "static/media/ventures.png": "/static/media/ventures.06d67a8890b86a6d9255.png",
     "static/media/kimchi.png": "/static/media/kimchi.abb54d7d3b72431b5ac3.png",
     "static/media/work-blank.svg": "/static/media/work-blank.b6a5a75b8c1cf57a9357a0f158091f03.svg",
     "static/media/work.svg": "/static/media/work.dcf3483fccbba5dd1611644c4d8debc8.svg",
     "index.html": "/index.html",
-    "main.97d7fedd.css.map": "/static/css/main.97d7fedd.css.map",
-    "main.f7356187.js.map": "/static/js/main.f7356187.js.map",
+    "main.77636f7d.css.map": "/static/css/main.77636f7d.css.map",
+    "main.41814172.js.map": "/static/js/main.41814172.js.map",
     "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.97d7fedd.css",
-    "static/js/main.f7356187.js"
+    "static/css/main.77636f7d.css",
+    "static/js/main.41814172.js"
   ]
 }
