@@ -1,4 +1,4 @@
-import actualKimchi from "../images/actual-kimchi.jpeg";
+import actualKimchi from "../assets/images/actual-kimchi.png";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
@@ -66,7 +66,7 @@ function About() {
                     </div>
                 </div>
                 <figure className="bg-white md:w-2/6 max-md:hidden">
-                    <img src={actualKimchi} alt="kim" className="max-md:hidden" />
+                    <img src={actualKimchi} alt="kim" className="max-md:hidden ml-10 bg-transparent" />
                 </figure>
             </div>
         </motion.div>

@@ -1,5 +1,5 @@
-import { ReactComponent as WorkText } from "../images/work-fonts/work.svg";
-import { ReactComponent as WorkBlank } from "../images/work-fonts/work-blank.svg";
+import { ReactComponent as WorkText } from "../assets/images/work-fonts/work.svg";
+import { ReactComponent as WorkBlank } from "../assets/images/work-fonts/work-blank.svg";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";

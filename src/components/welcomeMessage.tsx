@@ -1,4 +1,4 @@
-import kimchi from "../images/kimchi.png";
+import kimchi from "../assets/images/kimchi.png";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 
