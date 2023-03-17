@@ -49,7 +49,7 @@ function Work() {
                 </motion.div>
                 <div
                     id="web-tablet-work-container"
-                    className=" md:block lg:block sm:hidden md:min-h-[60vh] lg:min-h-[90vh] flex w-screen  object-center"
+                    className=" md:block lg:block sm:hidden md:min-h-[100vw] lg:min-h-[90vh] flex w-screen  object-center"
                 >
                     <motion.div
                         id="web-tablet-work-carousel"
