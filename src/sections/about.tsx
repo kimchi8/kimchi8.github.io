@@ -56,7 +56,7 @@ function About() {
                             className="btn btn-primary"
                             onClick={() => {
                                 window.open(
-                                    "https://drive.google.com/file/d/1UlaQ0iJ_bgkuRo8fH7eVTXeuATSjOluu/view?usp=sharing",
+                                    "https://drive.google.com/file/d/12Sz5uBei89ikosyP8Vyym4oSllLoLafk/view?usp=sharing",
                                     "_blank"
                                 );
                             }}
